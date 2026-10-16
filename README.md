@@ -77,7 +77,7 @@ The suggested actions are intended to support reflection and practical planning.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/sentio-student.git
+git clone https://github.com/abhishek-k-roy/sentio-student.git
 cd sentio-student
 ```
 
