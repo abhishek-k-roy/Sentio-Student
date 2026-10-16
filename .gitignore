@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local database and private user data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db-shm
+*.db-wal
+
+# Model checkpoints and large model artifacts
+models/**/pytorch_model.bin
+models/**/model.safetensors
+models/**/tf_model.h5
+models/**/model.safetensors.index.json
+models/**/pytorch_model.bin.index.json
+models/**/optimizer.pt
+models/**/scheduler.pt
+models/**/training_args.bin
+models/**/checkpoint-*/
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/

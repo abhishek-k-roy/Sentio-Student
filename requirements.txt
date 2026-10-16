@@ -1,0 +1,8 @@
+streamlit>=1.35
+pandas>=2.0
+plotly>=5.20
+# Needed only to run the real DistilBERT model (the app still runs without them):
+torch>=2.1
+transformers>=4.40
+# Tests
+pytest>=8.0
